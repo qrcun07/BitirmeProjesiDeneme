@@ -1,0 +1,59 @@
+# Unity'nin her bilgisayarda kendisinin ürettiği klasörler
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store araçları
+/[Aa]ssets/AssetStoreTools*
+
+# IDE / Visual Studio / Rider dosyaları (Unity yeniden üretir)
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Çökme / build artıkları
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Gradle / Android
+.gradle/
+/[Aa]ssets/[Ss]treamingAssets/aa*
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Üretilen harita sahnesi (~75 MB): herkes Unity'de RTS > Harita Oluştur ile kendisi üretir.
+# Sabit seed sayesinde herkeste aynı harita çıkar.
+/Assets/Scenes/RTSMap.unity
+/Assets/Scenes/RTSMap.unity.meta
